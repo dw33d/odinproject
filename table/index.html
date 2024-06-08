@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Planetary Data</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+    <h1>Planetary data</h1>
     <table>
         <tbody>
             <tr>
                 <th>&nbsp;</th>
-                <th>Name</th>
-                <th>Mass(10<sup>24</sup>kg)</th>
-                <th>Diameter(km)</th>
-                <th>Density(kg/m<sup>3</sup>)</th>
-                <th>Gravity(m/s<sup>2</sup>)</th>
-                <th>Length of the day(hours)</th>
-                <th>Distance from the Sun(10<sup>6</sup>km)</th>
-                <th>Mean temperature(°C)</th>
-                <th>Number of Moons</th>
-                <th>Notes</th>
+                <th class="char">Name</th>
+                <th class="char">Mass(10<sup>24</sup>kg)</th>
+                <th class="char">Diameter(km)</th>
+                <th class="char">Density(kg/m<sup>3</sup>)</th>
+                <th class="char">Gravity(m/s<sup>2</sup>)</th>
+                <th class="char">Length of the day(hours)</th>
+                <th class="char">Distance from the Sun(10<sup>6</sup>km)</th>
+                <th class="char">Mean temperature(°C)</th>
+                <th class="char">Number of Moons</th>
+                <th class="char">Notes</th>
             </tr>
             <tr>
-                <th rowspan="4" scope="rowgroup">Terrestrial  Planets</th>
-                <th scope="row">Mercury</th>
+                <th rowspan="4" scope="rowgroup" class="class">Terrestrial  Planets</th>
+                <th scope="row" class="name">Mercury</th>
                 <td>0.330</td>
                 <td>4,879</td>
                 <td>5427</td>
@@ -37,7 +37,7 @@
                 <td>Closest to the Sun</td>
             </tr>
             <tr>
-                <th>Venus</th>
+                <th scope="row" class="name">Venus</th>
                 <td>4.87</td>
                 <td>12,104</td>
                 <td>5243</td>
@@ -47,6 +47,92 @@
                 <td>464</td>
                 <td>0</td>
                 <td>The Trapped heat and acidic clouds can melt you</td>
+            </tr>
+            <tr>
+                <th scope="row" class="name">Earth</th>
+                <td>5.97</td>
+                <td>12,756</td>
+                <td>5514</td>
+                <td>9.8</td>
+                <td>24.0</td>
+                <td>149.6</td>
+                <td>15</td>
+                <td>1</td>
+                <td>The Only planet capable of hosting biological life (and non biological if you count machines)</td>
+            </tr>
+            <tr>
+                <th scope="row" class="name">Mars</th>
+                <td>0.642</td>
+                <td>6,792</td>
+                <td>3933</td>
+                <td>3.7</td>
+                <td>24.7</td>
+                <td>227.9</td>
+                <td>-65</td>
+                <td>2</td>
+                <td>Said to be the reason we are alive...and the reason it is dead(an asteroid ricocheted from Mars and hit us, destroying life over there and bringing it to us)</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="class">Gas Giants</th>
+                <th scope="row" class="name">Jupiter</th>
+                <td>1898</td>
+                <td>142,984</td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td>Our largest Planet</td>
+            </tr>
+            <tr>
+                <th scope="row" class="name">Saturn</th>
+                <td>568</td>
+                <td>120,536</td>
+                <td>687</td>
+                <td>9.0</td>
+                <td>10.7</td>
+                <td>1433.5</td>
+                <td>-140</td>
+                <td>62</td>
+                <td>It is lighter than water, therfore being able to float on it</td>
+            </tr>
+            <tr>
+                <th scope="row" class="name">Uranus</th>
+                <td>86.8</td>
+                <td>51,118</td>
+                <td>12171</td>
+                <td>8.7</td>
+                <td>17.2</td>
+                <td>2872.5</td>
+                <td>-195</td>
+                <td>27</td>
+                <td>Orbits on its side</td>
+            </tr>
+            <tr>
+                <th scope="row" class="name">Neptune</th>
+                <td>102</td>
+                <td>49,528</td>
+                <td>1638</td>
+                <td>11.0</td>
+                <td>16.1</td>
+                <td>4495.1</td>
+                <td>-200</td>
+                <td>14</td>
+                <td>Strongest winds, reaching up to up t0 2000km per hour</td>
+            </tr>
+            <tr>
+                <th rowspan="1" scope="rowgroup" class="class">Dwarf Planet</th>
+                <th class="name">Pluto</th>
+                <td>0.0146</td>
+                <td>2,370</td>
+                <td>2095</td>
+                <td>0.7</td>
+                <td>153.3</td>
+                <td>5906.4</td>
+                <td>-225</td>
+                <td>5</td>
+                <td><a href="https://www.loc.gov/everyday-mysteries/astronomy/item/why-is-pluto-no-longer-a-planet/">Declassified as a planet in 2006</a></td>
             </tr>
         </tbody>
 
