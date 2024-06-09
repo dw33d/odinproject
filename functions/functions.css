@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid red;
+    resize: both;
+    overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ballholder {
+    width: min(150px, 100%);
+    height: min(150px, 100%);
+    box-sizing: border-box;
+    border: 6px solid blue;
+}
