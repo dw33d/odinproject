@@ -71,3 +71,8 @@ link.href = "https://music.youtube.com/watch?v=dQw4w9WgXcQ";
 para.textContent = "We hope you enjoyed the prank 🤣";
 
 linkPara.appendChild(text);
+
+sect.appendChild(linkPara);
+sect.removeChild(linkPara);
+
+para.setAttribute("class", "announcement");
